@@ -1,0 +1,118 @@
+.titlee{
+    font-size:xx-large;
+    font-weight: 100;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parent{
+    position: relative;
+    border: 1px solid rgb(203, 203, 203);
+    width: 360px;
+    height:230px;
+    top: 20%;
+    left: 34%;
+    border-radius: 8px;
+    background-image:url(./dark-blue-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.parent .ch1{
+position: absolute;
+top:12px;
+left:250px;
+}
+.parent .ch2{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ch2 .ch2_1{
+    position: absolute;
+    top:75px;
+    left:45px;
+    
+}
+.ch2_1 img{
+    position: absolute;
+    border-radius:5px;
+}
+.ch2 .ch2_2{
+    position:absolute;
+    top:65px;
+    left:250px;
+    /* right:100px; */
+    font-size: 20px;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.parent .ch3{
+    position:absolute;
+    font-size:6px;
+    color:white;
+    top:110px;
+    left:260px;
+}
+.parent .ch4{
+    position:absolute;
+    font-size:x-large;
+    color:white;
+    top:120px;
+    left:50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.parent .ch5{
+    position:absolute;
+    font-size:8px;
+    color:white;
+    top:155px;
+    left:38%;
+}
+.parent .ch6{
+    position:absolute;
+    font-size:large;
+    color:white;
+    top:66%;
+    left:45%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+.ch7{
+    position:absolute;
+    font-size:large;
+    color:white;
+    top:80%;
+    left:8%;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: "Raleway", sans-serif;
+    font-style: oblique;
+}
+.ch8{
+    position:absolute;
+    font-size:xx-large;
+    color:white;
+    top:73%;
+    right:8%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: "Raleway", sans-serif; */
+    font-style: oblique;
+    font-weight: bolder;
+    /* width:10px;
+    height:10px; */
+}
+
+.ch9{
+    position:absolute;
+    font-size:small;
+    color:white;
+    top:89%;
+    right:6%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: "Raleway", sans-serif; */
+    font-style: oblique;
+    /* font-weight: bolder; */
+    /* width:10px;
+    height:10px; */
+}
+/* .ch8 img{
+    border-radius: 5px;
+
+} */

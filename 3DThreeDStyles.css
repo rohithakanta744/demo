@@ -1,0 +1,92 @@
+.parent{
+    width:100%;
+    height:100%;
+}
+.upper{
+    width:100%;
+    height:33.33%;
+}
+.upper_child{
+    width:17%;
+    height:100%;
+    /* justify-content: center; */
+    /* align-self: center; */
+    background-color: black;
+    perspective-origin: bottom;
+    perspective: 100px;
+}
+.upper_child_1{
+    transform: rotateX(-90deg);
+    transform-style: preserve-3d;
+    width:50%;
+    height:100%;
+    background-color: green;
+}
+ .middle{
+    width:100%;
+    height:33.33%;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: center;
+    justify-content: space-evenly;
+    position:relative;
+ }
+ .m1{
+    width:17%;
+    height:100%;
+    background-color: rgb(111, 68, 190);
+    /* position: absolute; */
+    /* left:10%; */
+    perspective-origin: right;
+    perspective: 100px;
+    
+ }
+ .m2{
+    width:17%;
+    height:100%;
+    background-color: rgb(40, 75, 58);
+ }
+ .m3{
+    width:17%;
+    height:100%;
+    background-color: rgb(69, 31, 31);
+    perspective-origin: left;
+    perspective: 100px;
+ }
+ .m1_child{
+    transform: rotateY(-90deg);
+    transform-style: preserve-3d;
+    width:50%;
+    height:100%;
+    background-color: rgb(122, 207, 58);
+ }
+ .m2_child{
+
+ }
+ .m3_child{
+    transform: rotateY(90deg);
+    transform-style: preserve-3d;
+    width:60%;
+    height:150%;
+    background-color: rgb(122, 207, 58);
+ }
+ .lower{
+    width:100%;
+    height:33.33%;
+}
+.lower_child{
+    width:17%;
+    height:100%;
+    /* justify-content: center; */
+    /* align-self: center; */
+    background-color: black;
+    perspective-origin: top;
+    perspective: 100px;
+}
+.lower_child_1{
+    transform: rotateX(90deg);
+    transform-style: preserve-3d;
+    width:50%;
+    height:100%;
+    background-color: rgb(122, 207, 58);
+}

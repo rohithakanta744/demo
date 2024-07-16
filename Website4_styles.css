@@ -1,0 +1,407 @@
+.par1{ 
+    width:100%;
+    height:100vh;
+    /* background-color:rgb(214, 222, 220); */
+    position: relative;
+}
+.ch1{
+    width: 100%;
+    height:8%;
+    position: absolute;
+    background-color:rgb(239, 239, 239);
+}
+.ch1_i
+{
+    position: absolute;
+    color: rgb(164, 162, 162);
+    top:27%;
+    left:5%;
+    font-size:large
+}
+.menu_ic{
+    position: absolute;
+    top:27%;
+    right:5%;
+    color: rgb(17, 17, 158);
+}
+
+.ch2{
+    width: 100%;
+    height:90%;
+    top:8%;
+    position: relative;
+    display: flex;
+    background-image: url(./Website_1stBG.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex-wrap:wrap;
+    /* flex-wrap:nowrap; */
+}
+.ch2_i{
+    position:absolute;
+    bottom:15%;
+    left:10%;
+    color: white;
+    font-weight: bolder;
+    font-size: 65px;
+    flex-wrap: wrap;
+    /* flex-wrap:nowrap; */
+    text-shadow: 2px 2px 2px black;
+
+}
+.divv{
+    position:absolute;
+    width:11%;
+    height:22%;
+    border-radius: 8px;;
+    background-color: rgb(247, 247, 247);
+}
+#div1{
+    position:absolute;
+    bottom:37%;
+    right:22.25%;
+    /* background-color: rgb(13, 0, 255); */
+}
+#div2{
+    position:absolute;
+    bottom:37%;
+    right:10%;
+    /* background-color: rgb(35, 254, 2); */
+
+}
+#div3{
+    position:absolute;
+    bottom:11%;
+    right:22.25%;
+    /* background-color: rgb(255, 0, 217); */
+}
+#div4{
+    position:absolute;
+    bottom:11%;
+    right:10%;
+    /* background-color: rgb(255, 0, 0); */
+
+}
+.divcr{
+    position: absolute;
+    width: 37%;
+    height:47%;
+    top:18%;
+    left:32%;
+    border-radius: 200px;
+    background-color: rgb(208, 210, 220);
+}
+#divcr1 img{
+position: absolute;
+top:20%;
+left:20%;
+width:60%;
+height:65%;
+}
+#divcr2 img{
+    position: absolute;
+    top:20%;
+    left:20%;
+    width:60%;
+    height:65%;
+}
+#divcr3 img{
+    position: absolute;
+    top:20%;
+    left:20%;
+    width:60%;
+    height:65%;
+}
+#divcr4 img{
+    position: absolute;
+    top:20%;
+    left:20%;
+    width:60%;
+    height:65%;
+}
+.strategy{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom:10%;
+    left:25%;
+}
+.develop{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom:10%;
+    left:16%;
+}
+.testing{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom:10%;
+    left:28%;
+}
+
+
+
+
+.par2{
+    width:100%;
+    height:100%;
+    position: relative;
+    /* border:5px solid red; */
+    background-color: rgb(228, 232, 232);
+}
+.awsmdesign{
+    width:100%;
+    height:12%;
+    /* border:2px solid black; */
+    font-size: 40px;
+    padding-top: 1%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* position: absolute; */
+}
+.italictext{
+    width:100%;
+    height:8%;
+    /* border:2px solid black; */
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.acds{
+    width:100%;
+    height:78%;
+    position:relative;
+    /* border:2px solid black; */
+}
+.textbox{
+    position: absolute;
+    width:37%;
+    height:34%;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+#amzg_dsgn_tb{
+    position: absolute;
+    top:10%;
+    left:11%;
+    /* background-color: rgb(111, 17, 17); */
+
+}
+#cpy_wrtng_tb{
+    position: absolute;
+    top:10%;
+    left:50%;
+    /* background-color: rgb(4, 80, 103); */
+}
+#dev_tb{
+    position: absolute;
+    top:50%;
+    left:11%;
+    /* background-color: rgb(2, 75, 69); */
+}
+#sup_tb{
+    position: absolute;
+    top:50%;
+    left:50%;
+    /* background-color: rgb(30, 17, 87); */
+}
+
+.check{
+    width:12%;
+    height:37%;
+    background-color:rgb(37, 104, 239);
+    border-radius: 100px;   
+    position: absolute;
+    background-image: url(./checklist.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top:14%;
+    left:7%;
+}
+.amazing_design{
+    /* width:15%;
+    height:20%; */
+    position: absolute;
+    top:19%;
+    left:24%;
+    font-size: large;
+}
+.sampletext{
+    position: absolute;
+    left:24%;
+    top:45%;
+    font-size:14px;
+}
+
+
+.par3{
+   
+    width: 100%;
+    height: 100svh;
+    position: relative;
+}
+.dady{
+    position: absolute;
+    left: 10.41666666666667%;
+    top:9.182736455463728%;
+    height: 66.57%;
+    width: 57.29166666666667%;
+    background-color: rgb(24, 71, 184);
+    border-radius: 30px;
+
+}
+.kid{
+    position: absolute;
+    left: 63.54545454545455%;
+    top: 16.2534435261708%;
+    width: 60.90909090909091%;
+    height: 99.86225895316804%;
+    background-color: rgb(223, 227, 230);
+    border-radius: 30px;
+    background-image: url("https://magiktrend.com/wp-content/uploads/2023/04/Image-3.svg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+
+}
+.textbox_3
+{
+    width:47%;
+    height:23%;
+    position: absolute;
+    top:10%;
+    left:10%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 25px;
+    /* border :2px solid ; */
+    
+}
+.tbox2{
+    width:47%;
+    height:35%;
+    top:34%;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    font-size: 16px;
+    left:10%;
+    position: absolute;
+    /* border: 2px solid black; */
+}
+.learn_more{
+    width: 22%;
+    height:10%;
+    border:1.5px solid white;
+    position: absolute;
+    top:76%;
+    left:10%;
+    border-radius: 50px;
+}
+.learntxt{
+    position: absolute;
+    top:20%;
+    left:19%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+.par4{
+    width:100%;
+    height:100%;
+    position: relative;
+    /* border:5px solid red; */
+    /* background-color: rgb(120, 171, 171); */
+    display:flex;
+}
+
+.par4ch1{
+    position:absolute;
+    width:40%;
+    height:99.5%;
+    /* border:2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    /* position: absolute; */
+    /* top:30%;
+    left:25%; */
+    height:65%;
+    width:65%;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle img{
+    border-radius: 20px;
+    box-shadow: -5px -5px 8px 5px rgb(112, 111, 111);
+    height:440px;
+}   
+.par4ch2{
+    position:absolute;
+    width:59%;
+    left:40.7%;
+    height:99.5%;
+    border:2px solid black;
+}
+.p4ch21{
+    width:80%;
+    position: absolute;
+    /* border:2px solid rgb(227, 10, 10); */
+    color: rgb(63, 63, 63);
+    /* text-align: center; */
+    font-size: 18px;
+    height: 5%;
+    top:13%;
+    left:5%
+}
+.p4ch22{
+    width:100%;
+    position: absolute;
+    /* border:2px solid rgb(227, 10, 10); */
+    height: 5%;
+    top:20%;
+    left:5%;
+    font-weight: bolder;
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.p4ch23{
+    border:2px solid rgb(227, 10, 10);
+    position: absolute;
+    top:38%;
+    left:5%;
+    font-weight:lighter;
+}
+
+/* #divcr1{
+    background-image: url(./marketing-plan.png);
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+    position: absolute;
+    top:30;
+} */
+
+
+ /* .ch1{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    background-image: url(./Website_1stBG.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 98%;
+}
+.ch2{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:200%
+}  
+*/

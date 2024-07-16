@@ -1,0 +1,35 @@
+.par{
+    /* width:100%;
+    height:100%; */
+    border: 2px solid black;
+    background-color: rgb(235, 235, 235);
+    display:flex;
+    justify-content: space-around;
+    gap: 25px;
+    row-gap: 25px;
+    flex-wrap: wrap;
+}
+.ch1{
+    width:240px;
+    height: 320px;
+    border: 2px solid black;
+    top:25px;
+    /* margin: 25px 25px 25px 25px; */
+    border-radius:5px 5px 5px 5px;
+    position:relative;
+}
+.prod_img{
+    width:100%;
+    height: 75%
+}
+.prod_img img{
+    width: 100%;
+    height:100%;
+}
+.strip{
+    width: 10px;
+    height:60px;
+    background-color: rgb(65, 65, 65);
+    position: absolute;
+    top:60px;
+}
